@@ -1,0 +1,42 @@
+.menuData {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+        position: relative;
+        list-style-type: none;
+    }
+
+    li a {
+        display: block;
+        color: #333;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        color: #a80303
+    }
+
+    ul {
+        display: none;
+        position: absolute;
+        background-color: #333;
+        z-index: 1;
+    }
+
+    ul li a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+    }
+
+    li:hover > ul {
+        display: block;
+    }
+}
+
+
+
+
